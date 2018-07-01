@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'helvetica-neue';
+  src: url('./fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'), url('./fonts/helveticaneuecyr-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: url('./fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('./fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: url('./fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'), url('./fonts/helveticaneuecyr-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  margin: 0;
+  color: #221f1f;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.container {
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 1060px;
+}
+
+.header {
+  background: #4b73b5;
+  text-align: center;
+  background-origin: padding-box;
+  margin-bottom: 35px;
+}
+
+.header .container {
+  position: relative;
+  height: 80px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  width: 120px;
+  height: 36px;
+  opacity:100%
+  color=#ffffff;
+}
+
+.contacts {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.contacts {
+  font-weight: bold;
+  text-align: right;
+}
+
+.contacts__phone {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.contacts__phone:hover {
+  text-decoration: underline;
+}
+
+.contacts__info {
+  color: rgba(255, 255, 255, .7);
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.route__picture-img {
+  position: absolute;
+  margin: 0%;
+  top: 0px;
+  }
+
+.route__place-title {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: bold;
+  position: absolute;
+  vertical-align: middle;
+  top: 300px;
+  margin-right: 50px;
+}
+
+.route__place-title:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 0px;
+  position: absolute;
+  margin-right: 50px;
+}
+
+.menu__link {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu__item--active .menu__icon {
+  background: #4b73b5;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu__item--active .menu__title {
+  color: #4b73b5;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sidebar {
+  width: 30%;
+}
